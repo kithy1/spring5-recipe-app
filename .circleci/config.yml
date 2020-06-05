@@ -1,9 +1,7 @@
 version: 2.1
-jobs:
-  build:
-    docker:
-      - image: openjdk:12-jdk
+
 orbs:
+  openjdk-install: cloudesire/openjdk-install@1.2.3
   maven: circleci/maven@0.0.12
 
 
